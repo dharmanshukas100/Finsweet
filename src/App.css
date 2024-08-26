@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+.font-san{
+  font-family: "Sen", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inline-blck{
+  display: inline-block;
 }
+.li{
+  list-style: none;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.invert{
+  filter: invert();
+}
+.logo{
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.navbar{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color:  #232536;
+  padding: 7px 63px;
+}
+.flexbox{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.pages-opt{
+  display: flex;
+  width: max-content;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  list-style: none;
   color: white;
-}
+  font-weight: 300;
+  margin: 0;
+  font-size: 15px;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.page-tag{
+  padding: 15px;
+}
+.subscribe-btn{
+  font-weight: 600;
+  font-size: 15px;
+}
+.anchor-subscribe{
+  text-decoration: none;
+  color: #232536;
+  background-color: white;
+  padding: 16px 45px;
+}
+#page-bottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  #232536;
+  text-align: center;
+}
+.footer-main{
+  margin: 55px 63px;
+}
+.subscribe-form{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 48px 11px;
+  padding: 60px 43px;
+  background-color: #4c4c4c42;
+  gap: 0rem;
+}
+.info-text{
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+}
+.input-mail{
+  background: none;
+  border: 2px solid #6D6E76;
+  padding: 16px 26px;
+  width: 188px;
+}
+.info-text-div{
+  width: 46%;
+  text-align: left;
+}
+.basic-info{
+  color: #b6b1b1;
+    margin: 0;
+    text-align: left;
+    padding: 2px 11px;
+}
+.navbar-f{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:  #232536;
+  /* padding: 7px 63px; */
+}
+.soc-icon{
+  padding: 8px;
+}
+.contact-info{
+  justify-content: space-between;
+}
+.feature-all{
+  margin: 63px ;
+}
+.ul-feature{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+.feature-p{
+  margin: 0;
+  font-size: 14px;
+}
+.feature-span{
+  font-weight: 700;
+  font-size: 1.6rem;
 }
